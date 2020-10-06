@@ -163,6 +163,7 @@ nav ul.slide {
 
 
 .analogi{
+  display: flex;
   left: 0;
   top: 60px;
   right: 0;
@@ -213,6 +214,7 @@ nav ul.slide {
 }
 
 .about{
+  display: flex;
   left: 0;
   top: 60px;
   right: 0;
@@ -227,6 +229,7 @@ nav ul.slide {
 }
 
 .about about-img{
+  display: flex;
   width: 100%;
   height: 589px;
   z-index: -2;
