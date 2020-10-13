@@ -352,6 +352,7 @@ input[type=submit]:hover {
 }
 
 #pendaftaran{
+   display: flex;
   border-radius: 5px;
   background-color: #FFEBCD;
   padding: 20px;
