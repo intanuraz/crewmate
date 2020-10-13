@@ -10,6 +10,7 @@ body{
     overflow-x: hidden;
 }
 
+
 html{
   scroll-behavior: smooth;
 }
@@ -26,6 +27,11 @@ nav .logo{
 font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; ;
 text-align: left;
 font-size: 50px;
+
+}
+nav .logo h3 a{
+  text-decoration: none;
+  color:#f0bf77;
 }
 
 nav ul{
@@ -76,7 +82,7 @@ nav ul li a:hover{
   height: 3px;
   background-color: #eed3a9;
   border-radius: 3px;
-  transition: all 0.3s;
+  transition: all 0.1s;
 }
 
 
@@ -112,7 +118,7 @@ nav ul li a:hover{
 /* ukuran tablet */
 @media screen and (max-width: 768px) {
   nav ul {
-    width: 40%;
+    width: 100%;
   }
 }
 
@@ -125,7 +131,7 @@ nav ul li a:hover{
     position: absolute;
     right: 0;
     top: 0;
-    width: 40%;
+    width: 100%;
     height: 100vh;
     justify-content: space-evenly;
     align-items: center;
@@ -226,9 +232,9 @@ nav ul.slide {
   box-shadow: 0px 0px 12px 0px rgb(255, 222, 195);
 }
 
-.about about-img{
+.about-img img{
   width: 100%;
-  height: 589px;
+  height: 464px;
   z-index: -2;
 }
 
@@ -246,6 +252,111 @@ nav ul.slide {
   color: #777;
   padding: 30px 0;
 }
+
+/* team */
+.Team{
+  left: 0;
+  top: 60px;
+  right: 0;
+  height: calc(50% - 60px);
+  display: flex;
+  flex-direction: column;
+  background: #fffdfd;
+  box-shadow: 0px 0px 12px 0px rgb(255, 222, 195);
+}
+.Team h3 {
+  margin: 30px 0 10px 0;
+  padding: 0 15px;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 56px;
+  color: #000;
+  text-align: center;
+}
+
+
+ul {
+  margin:0;
+  padding:0;
+  display:grid;
+    list-style-type:none;
+    margin:0;padding:0;
+    grid-template-columns: repeat(3, auto);
+    grid-template-rows: repeat(2, auto)
+}
+ul li {
+  padding: 2em;
+  color:#E98A8A;
+}
+ul li span {
+  display:block;
+  font-size:1.4em;
+  margin-bottom:1em;
+  color: #000000;
+}
+
+/* Registrasi */
+
+.judul h3{
+  font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol"; ;
+  margin: 30px 0 10px 0;
+  padding: 0 15px;
+  font-size: 38px;
+  font-weight: 450;
+  line-height: 56px;
+  color: #000;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid rgba(133, 133, 133, 0.342);
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 10%;
+  background-color: #1de099;
+  border: 0;
+  border-radius: 20px;
+  padding: 9px 30px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+}
+
+input[type=submit]:hover {
+  background-color: #1de099;
+}
+
+.checkbox{
+  padding: 12px 20px;
+  
+}
+
+.form-group p{
+  color: #888;
+  font-size: small;
+  padding: 4px 110px;
+}
+
+.psn-label{
+  padding: 8px 0px;
+}
+
+.radio{
+  padding: 12px 20px;
+}
+
+#pendaftaran{
+  border-radius: 5px;
+  background-color: #FFEBCD;
+  padding: 20px;
+}
+
 
 
 /* footer */
