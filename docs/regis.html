@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intan's Pages | Profile</title>
+    <link rel="stylesheet" href="../asset/css/style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">
+            <h3><a href="../docs/index.html">JOYFUL</a></h3>
+        </div>
+    </nav>
+    <div class="judul">
+        <h3>Registrasi</h3>
+        <p>Silahkan isi data diri anda</p>
+    </div>
+
+
+    <section id="pendaftaran">
+        <form role="form" method="POST" action="../docs/index.html" class="form-pesan">
+            <label for="fname"><strong>Nama Depan</strong></label>
+            <input type="text" id="fname" name="firstname" autofocus="autofocus" placeholder="Nama depanmu.." required>
+
+            <label for=" lname"><strong>Nama Belakang</strong></label>
+            <input type="text" id="lname" name="lastname" placeholder="Nama belakangmu..." required">
+
+            <div class="email">
+                <label for="email">
+                    <strong>Email</strong>
+                </label>
+                <input type="text" id="email" name="email" placeholder="Email" required">
+            </div>
+
+            <div>
+                <label for="jk"><strong>Jenis Kelamin</strong></label>
+            </div>
+
+            <div class="radio">
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio1" value="option1" required> Pria
+                </label>
+                <label class="radio-inline">
+                    <input type="radio" name="inlineRadioOptions" id="inlineRadio2" value="option2" required> Wanita
+                </label>
+            </div>
+
+            <div>
+                <label for="jk"><strong>Hobi</strong></label>
+            </div>
+
+            <div class="checkbox">
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox1" value="option1"> Memancing
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option2"> Membaca
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option3"> Menonton film
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox2" value="option4"> Olahraga
+                </label>
+                <label class="checkbox-inline">
+                    <input type="checkbox" id="inlineCheckbox3" value="option5"> Menyanyi
+                </label>
+            </div>
+
+            <label for="domisili"><strong>Domisili</strong></label>
+            <select id="domisili" name="domisili">
+                <option value="jakarta">Jakarta</option>
+                <option value="surabaya">Surabaya</option>
+                <option value="lampung">lampung</option>
+                <option value="medan">Medan</option>
+                <option value="jambi">Jambi</option>
+            </select>
+
+            <div class="psn-label">
+                <label for="psn"><strong>Ceritakan Permasalahanmu</strong></label>
+            </div>
+
+            <div class="kolom-pesan">
+                <textarea class="form-control" rows="8" cols="50" placeholder="Silahkan ceritakan permasalahanmu"
+                    required></textarea>
+            </div>
+
+
+            <div class="form-group">
+                <label for="InputFile"><strong> Masukkan File </strong>
+                </label>
+                <input type="file" id="InputFile" required>
+                <p class="help-block"> <i>file maksimal 200 mb.</i> </p>
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" required> saya bukan robot
+                </label>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <div class="copyright">
+                        &copy; Copyright <strong>JOYFUL</strong>. All Rights Reserved
+                    </div>
+                    <div class="credits">
+                        Designed by <a href="../docs/index.html">Crewmate</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer><!-- End  Footer -->
+
+    <!-- jQuery -->
+    <script src="../asset/js/script.js"></script>
+</body>
+
+</html>
