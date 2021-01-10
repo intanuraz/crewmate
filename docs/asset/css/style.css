@@ -318,7 +318,7 @@ input[type=text], select {
 }
 
 input[type=submit] {
-  width: 10%;
+  width: 30%;
   background-color: #1de099;
   border: 0;
   border-radius: 20px;
